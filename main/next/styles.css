@@ -1,0 +1,69 @@
+/* styles.css */
+body {
+    background-color: #f0f0f0; /* light gray background */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.song-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.song-cover {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.song-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.song-artist {
+    font-size: 18px;
+    color: #666;
+}
+
+.play-button-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.play-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.stop-button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.skip-btn {
+    background-color: aliceblue;
+    color: gray;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

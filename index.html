@@ -1,0 +1,37 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form id="login-form">
+            <label for="password">Enter your secret password:</label>
+            <input type="password" id="password" name="password">
+            <button type="submit">Login</button>
+        </form>
+        <div id="error-message"></div>
+
+        <!-- Hint containers -->
+        <div class="hint-container">
+            <button class="hint-btn" id="hint-1-btn">Hint 1</button>
+            <div class="hint" id="hint-1">Hint 1: The name I used to call you from first</div>
+        </div>
+        <div class="hint-container">
+            <button class="hint-btn" id="hint-2-btn">Hint 2</button>
+            <div class="hint" id="hint-2">Hint 2: Gosh, you are a vegetable, but in english(ALL CAP)</div>
+        </div>
+        <div class="hint-container">
+            <button class="hint-btn" id="hint-3-btn">Hint 3</button>
+            <div class="hint" id="hint-3">Hint 3: Dearest patagobi</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
